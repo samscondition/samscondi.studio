@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sams Condi is an independent design and motion studio creating bold identities, websites, interfaces and films.">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>sams condi — Independent Design & Motion Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="hd" aria-label="Main navigation">
+    <div class="shell hd-in">
+      <a class="brand" href="#home" aria-label="Sams Condi home">
+        <svg class="ic ic-f" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.5l3.1 7.4L22.5 12l-7.4 3.1L12 22.5l-3.1-7.4L1.5 12l7.4-3.1L12 1.5z"/></svg>
+        sams condi
+      </a>
+      <nav class="nav-p" aria-label="Primary">
+        <button data-scroll="about">Studio</button>
+        <button data-scroll="works">Work</button>
+        <button data-scroll="services">Services</button>
+        <button data-scroll="clients">Clients</button>
+      </nav>
+      <div class="hd-r">
+        <div class="chip" aria-label="Local time">
+          <span class="lbl">Local time</span><span class="sep">/</span>
+          <time id="ctime">00:00</time><span class="sep">—</span><time id="cdate">Today</time>
+        </div>
+        <button class="menu-btn" id="menuOpen" aria-expanded="false" aria-controls="nav">
+          <span><span class="t">Menu</span><svg class="ic ic-s" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" aria-labelledby="hero-title">
+      <div id="lr" aria-hidden="true">
+        <canvas id="lrc"></canvas>
+      </div>
+      <div class="vig"></div>
+      <div class="wm" aria-hidden="true">SC.</div>
+      <div class="shell hero-in">
+        <div class="h-left">
+          <p class="eyebrow rv"><i></i> Independent design & motion studio</p>
+          <h1 id="hero-title" class="words">We make brands feel <span class="dim">impossible to ignore.</span></h1>
+          <div class="rv">
+            <div class="rate">
+              <div class="stars" aria-label="5 out of 5 stars">
+                <svg class="ic ic-f" viewBox="0 0 24 24"><path d="M12 2l3 6.1 6.7 1-4.9 4.7 1.2 6.7L12 17.4l-6 3.1 1.2-6.7-4.9-4.7 6.7-1L12 2z"/></svg>
+                <svg class="ic ic-f" viewBox="0 0 24 24"><path d="M12 2l3 6.1 6.7 1-4.9 4.7 1.2 6.7L12 17.4l-6 3.1 1.2-6.7-4.9-4.7 6.7-1L12 2z"/></svg>
+                <svg class="ic ic-f" viewBox="0 0 24 24"><path d="M12 2l3 6.1 6.7 1-4.9 4.7 1.2 6.7L12 17.4l-6 3.1 1.2-6.7-4.9-4.7 6.7-1L12 2z"/></svg>
+                <svg class="ic ic-f" viewBox="0 0 24 24"><path d="M12 2l3 6.1 6.7 1-4.9 4.7 1.2 6.7L12 17.4l-6 3.1 1.2-6.7-4.9-4.7 6.7-1L12 2z"/></svg>
+                <svg class="ic ic-f" viewBox="0 0 24 24"><path d="M12 2l3 6.1 6.7 1-4.9 4.7 1.2 6.7L12 17.4l-6 3.1 1.2-6.7-4.9-4.7 6.7-1L12 2z"/></svg>
+              </div>
+              <span class="t">Trusted by ambitious teams worldwide</span>
+            </div>
+          </div>
+          <div class="cta rv">
+            <button class="btn btn-dark" data-scroll="works">View our work <svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+            <button class="btn btn-out" data-modal-open>Start a project</button>
+          </div>
+        </div>
+
+        <aside class="h-right">
+          <div class="hcard" id="hcard">
+            <div class="hc-vis pt p1"><b>01</b></div>
+            <div class="hc-txt"><span class="hc-k">Selected work</span><h2 class="hc-t">Koto — Brand & Digital</h2></div>
+            <div class="dots" aria-label="Featured work">
+              <button class="on" aria-label="Project 1"></button>
+              <button aria-label="Project 2"></button>
+              <button aria-label="Project 3"></button>
+            </div>
+          </div>
+          <div class="pgrid"><span>Brand</span><span>Digital</span><span>Motion</span></div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="blk about">
+      <div class="shell">
+        <p class="rv">We turn sharp thinking into <span class="dim">distinctive identities, useful interfaces and memorable motion.</span></p>
+      </div>
+    </section>
+
+    <section class="blk" aria-label="Capabilities">
+      <div class="shell">
+        <div class="pills rv">
+          <span class="pill pl-out">Branding</span>
+          <span class="pill pl-ink">Websites <svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <span class="pill pl-fill">Motion</span>
+          <span class="pill pl-out">Strategy</span>
+          <span class="pill pl-ink">Objects</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="blk" aria-labelledby="works-title">
+      <div class="shell">
+        <div class="sec-h">
+          <div><p class="kicker rv"><i></i> Selected work</p><h2 class="sec-t rv" id="works-title">Recent projects</h2></div>
+          <div class="ctrl"><button class="rev" id="workPrev" aria-label="Previous project"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button><button id="workNext" aria-label="Next project"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></div>
+        </div>
+      </div>
+      <div class="scroller" id="workScroller">
+        <article class="card"><div class="vis pt p2"><b>NOVA</b></div><div class="meta"><div class="tags"><span>Identity</span><span>2025</span></div><h3>NOVA / Energy in motion</h3><p>A confident visual system for a company building the next generation of clean technology.</p></div></article>
+        <article class="card"><div class="vis pt p3"><b>FORM</b></div><div class="meta"><div class="tags"><span>Digital</span><span>2025</span></div><h3>Form / Made to move</h3><p>A tactile editorial platform for an architecture practice with a distinctly human point of view.</p></div></article>
+        <article class="card"><div class="vis pt p4"><b>FIELD</b></div><div class="meta"><div class="tags"><span>Campaign</span><span>2024</span></div><h3>Field / Outside thinking</h3><p>An expressive campaign and living identity for culture, community and the great outdoors.</p></div></article>
+        <article class="card"><div class="vis pt p5"><b>ARC</b></div><div class="meta"><div class="tags"><span>Product</span><span>2024</span></div><h3>Arc / Work, reworked</h3><p>A streamlined product experience that turns complex team planning into a clear daily rhythm.</p></div></article>
+        <article class="card"><div class="vis pt p6"><b>SILO</b></div><div class="meta"><div class="tags"><span>Motion</span><span>2024</span></div><h3>Silo / Sound as form</h3><p>A cinematic identity system built to make sound visible across stages and screens.</p></div></article>
+      </div>
+    </section>
+
+    <section id="services" class="blk" aria-labelledby="services-title">
+      <div class="shell">
+        <div class="sec-h"><div><p class="kicker rv"><i></i> What we do</p><h2 class="sec-t rv" id="services-title">Services</h2></div></div>
+        <div class="services">
+          <article class="srv"><span class="n">01</span><h3>Brand strategy</h3><p>Positioning, naming and identity systems that give ambitious ideas a sharp point of view.</p><button class="ar" data-modal-open aria-label="Discuss brand strategy"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></article>
+          <article class="srv"><span class="n">02</span><h3>Digital design</h3><p>Distinctive websites and products designed around real people, clear decisions and lasting use.</p><button class="ar" data-modal-open aria-label="Discuss digital design"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></article>
+          <article class="srv"><span class="n">03</span><h3>Motion</h3><p>Kinetic identities and films that create energy, character and a memorable sense of movement.</p><button class="ar" data-modal-open aria-label="Discuss motion"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></article>
+          <article class="srv"><span class="n">04</span><h3>Creative direction</h3><p>One clear vision across campaigns, launches and every detail of the experience.</p><button class="ar" data-modal-open aria-label="Discuss creative direction"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="clients" class="blk">
+      <div class="shell">
+        <div class="cl-panel">
+          <p class="kicker rv"><i></i> Kind words</p>
+          <div class="quotes">
+            <article class="q rv"><p>“They found the clearest, boldest version of our idea — then made it beautifully real.”</p><div class="who"><span class="av">AM</span><div><b>Ana Moreno</b><span>Founder, Nova</span></div></div></article>
+            <article class="q rv"><p>“Rare range, exacting craft and a process that made every decision feel obvious.”</p><div class="who"><span class="av">JL</span><div><b>James Liu</b><span>Partner, Field</span></div></div></article>
+            <article class="q rv"><p>“The work gave our team language for who we are and a system we can grow with.”</p><div class="who"><span class="av">SK</span><div><b>Samira Khan</b><span>Creative Lead, Arc</span></div></div></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats blk">
+      <div class="shell st-grid">
+        <div class="st rv"><b data-count="42">0</b><span class="l">Projects shipped</span></div>
+        <div class="st rv"><b data-count="11">0</b><span class="l">Design awards</span></div>
+        <div class="st rv"><b data-count="8">0</b><span class="l">Years independent</span></div>
+        <div class="st rv"><b data-count="9">0</b><span class="l">Countries reached</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell">
+      <div class="f-top">
+        <div class="f-cta"><p class="kicker"><i></i> Have a project?</p><h2>Let’s make something memorable.</h2></div>
+        <button class="btn btn-light" data-modal-open>Start a project <svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </div>
+      <div class="f-cols">
+        <div><h4>Explore</h4><ul><li><button data-scroll="about">Studio</button></li><li><button data-scroll="works">Work</button></li><li><button data-scroll="services">Services</button></li></ul></div>
+        <div><h4>Social</h4><ul><li><a href="#instagram">Instagram</a></li><li><a href="#behance">Behance</a></li><li><a href="#linkedin">LinkedIn</a></li></ul></div>
+        <div><h4>Contact</h4><ul><li><a href="mailto:hello@samscondi.studio">Email us</a></li><li><button data-modal-open>Project form</button></li></ul></div>
+      </div>
+      <div class="f-wm" aria-hidden="true">sams condi</div>
+      <div class="f-bot"><span>© <span id="year"></span> Sams Condi Studio</span><span>Independent by choice</span></div>
+    </div>
+  </footer>
+
+  <div id="nav" aria-hidden="true">
+    <div class="nv-top"><span class="brand">sams condi</span><button class="nv-x" id="menuClose" aria-label="Close menu"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <nav class="nv-links" aria-label="Menu"><button data-scroll="about">Studio</button><button data-scroll="works">Work</button><button data-scroll="services">Services</button><button data-scroll="clients">Clients</button></nav>
+    <div class="nv-bot"><span>hello@samscondi.studio</span><span>Independent studio</span></div>
+  </div>
+
+  <div id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="m-bg" data-modal-close></div>
+    <div class="m-panel">
+      <button class="m-x" data-modal-close aria-label="Close"><svg class="ic ic-s" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      <p class="kicker"><i></i> New project</p>
+      <h2 id="modal-title">Tell us what you’re making.</h2>
+      <form id="projectForm">
+        <label>Name<input name="name" type="text" autocomplete="name" required></label>
+        <label>Email<input name="email" type="email" autocomplete="email" required></label>
+        <label>Project<textarea name="message" rows="4" required></textarea></label>
+        <button class="btn btn-dark" type="submit">Send inquiry <svg class="ic ic-s" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
